@@ -10,8 +10,16 @@ public class Word {
 
     private String mMiwokTranslation;
 
+    private int mResourceid;
+
 
     //Constructor
+
+    public Word(String Default, String Miwok, int Resourceid){
+        mDefaultTranslation = Default;
+        mMiwokTranslation = Miwok;
+        mResourceid = Resourceid;
+    }
 
     public Word(String Default, String Miwok){
         mDefaultTranslation = Default;
@@ -25,4 +33,6 @@ public class Word {
     public String getMiwokTranslation(){
         return mMiwokTranslation;
     }
+
+    public int getResourceid() {return mResourceid; }
 }
