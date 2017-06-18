@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         numbers.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Toast.makeText(view.getContext(), "Opening Numbers Tab", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(view.getContext(), "Opening Numbers Tab", Toast.LENGTH_SHORT).show();
                 Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
                 startActivity(numbersIntent);
             }
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         family.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Toast.makeText(view.getContext(), "Opening Family Tab", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(view.getContext(), "Opening Family Tab", Toast.LENGTH_SHORT).show();
                 Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
                 startActivity(familyIntent);
             }
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         colors.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Toast.makeText(view.getContext(), "Opening Colors Tab", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(view.getContext(), "Opening Colors Tab", Toast.LENGTH_SHORT).show();
                 Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
                 startActivity(colorsIntent);
             }
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         phrases.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Toast.makeText(view.getContext(), "Opening Phrases Tab", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(view.getContext(), "Opening Phrases Tab", Toast.LENGTH_SHORT).show();
                 Intent phrasesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
                 startActivity(phrasesIntent);
             }

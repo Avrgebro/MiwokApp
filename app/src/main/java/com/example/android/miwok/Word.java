@@ -24,6 +24,7 @@ public class Word {
     public Word(String Default, String Miwok){
         mDefaultTranslation = Default;
         mMiwokTranslation = Miwok;
+        mResourceid = -99;
     }
 
     public String getDefaultTranslation(){
